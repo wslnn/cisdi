@@ -6,6 +6,10 @@ import java.sql.Connection;
 import java.sql.SQLException;
 
 //TODO 提取参数至配置文件
+
+/**
+ * 数据库连接
+ */
 public class DbBeans {
     public static DriverManagerDataSource dataSource;
     public static Connection conn;
