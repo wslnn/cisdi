@@ -1,13 +1,14 @@
-package com.yangyuang.demo;
+package com.yangyuang;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DemoApplication {
+public class Entrance {
 
     public static void main(String[] args) {
-        SpringApplication.run(DemoApplication.class, args);
+        SpringApplication.run(Entrance.class, args);
     }
+
 
 }
