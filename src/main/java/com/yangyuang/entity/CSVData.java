@@ -1,7 +1,15 @@
 package com.yangyuang.entity;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
 public class CSVData {
+
+    @Id
+
     private String name;
+
     private byte[] data;
 
     public String getName() {
